@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
+/*TODO: Fix responsiveness for small screen width*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin:0;
+    text-align:center;
+}
+header, section, aside, nav, article { display: block; }
+
+button {
+    padding: 8px 45px !important;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px;
+    cursor: pointer;
+    padding-left: 3em !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    color: #015249;
+    font-size: 3em;
+    margin: 0
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+    font-size: 1.7em;
+    color: #015249;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+    font-weight: 700 !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    color: #ffffff;
 }
+
+p {
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.4em;
+}
+
+#menu {
+    border-radius: 10px  10px 0 0 !important;
+    display: flex;
+    padding: 1.5em 1em 1.5em 1em;
+    background: #01786a;
+}
+
+#menu h3 {
+    margin-right: auto;
+}
+
+#menu .fa-solid {
+    padding-top: 3px;
+    float: right;
+    font-weight: 700 !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    font-size: 1.5em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bar {
+    margin: 15px;
+    border-radius: 10px !important;
+    float: left;
+    width: 12em;
+    height: calc(88vh - 30px);       
+    background: #015249;
+}
+
+.navbar {
+
+    text-align: left;
+    padding: 0.5em;  
+}
+
+.navbar .fa-solid {
+    padding-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-radius: 5px !important;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-bottom: 0.5em;
+}
+
+li:hover {
+    background-color: #0f665c;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #73d1a8;
+}
+
+input {
+	padding: 0.6em 3em !important;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 8px;
+	cursor: pointer;
+    background: #57bc90;
+    color: white;
+    border-radius: 3px !important;
+    border: none;
+}
+
+input:hover {
+    background: #73d1a8;
+}
+
+.header {
+    background: url('../img/header_new2.jpg') !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover !important;
+    height: 88vh;
+}
+
+.desc {
+    text-align: center;
+    margin: 0;
+    float: right;
+    margin: 14vh 0 14vh 0;
+    padding: 10vh 5vw 10vh 5vw;
+    width: 35em;
+}
+
+.fas {
+    font-size: 2.5em;
+    padding: 5px;
+    color: #57bc90;
+}
+
+.footer {
+    background: #b1cfcb;
+    height: 12vh;
+}
+
+.footer h4 {
+    color: #01433b;
+    margin: 0;
+    font-size: 2.4vh;
+    padding: 4.5vh;
+}
+
+@media (max-width: 1240px) {
+    .desc {
+        display: inline-block;
+        float:none;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 5px !important;
+        width: auto;
+    }
+        
+    .header {           
+        background: url('../img/header_new.jpg') !important;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover !important;
+        height: 88vh;
+    }
+}
+
