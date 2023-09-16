@@ -63,7 +63,7 @@ p {
     margin-right: auto;
 }
 
-#menu .fa-solid {
+#menu-btn {
     padding-top: 3px;
     float: right;
     font-weight: 700 !important;
@@ -151,12 +151,6 @@ input:hover {
     margin: 14vh 0 14vh 0;
     padding: 10vh 5vw 10vh 5vw;
     width: 35em;
-}
-
-.fas {
-    font-size: 2.5em;
-    padding: 5px;
-    color: #57bc90;
 }
 
 .footer {

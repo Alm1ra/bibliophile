@@ -1,4 +1,10 @@
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faChartSimple } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -8,14 +14,14 @@ function App() {
           <div class="bar">
             <div id="menu">
               <h3>MENU</h3>
-              <div id="menu-btn"><i class="fa-solid fa-bars-staggered"></i></div>
+              <div id="menu-btn"><FontAwesomeIcon icon={faBarsStaggered} /></div>
             </div>
             <div class="navbar">
               <ul>
-                <a href="#"><li><i class="fa-solid fa-house"></i> HOME</li></a>
-                <a href="#"><li><i class="fa-solid fa-plus"></i> ADD</li></a>
-                <a href="#"><li><i class="fa-solid fa-magnifying-glass"></i> SEARCH</li></a>
-                <a href="#"><li><i class="fa-solid fa-chart-simple"></i> STATISTIC</li></a>
+                <a href="./"><li><FontAwesomeIcon icon={faHouse} /> HOME</li></a>
+                <a href="#"><li><FontAwesomeIcon icon={faPlus} /> ADD</li></a>
+                <a href="#"><li><FontAwesomeIcon icon={faMagnifyingGlass} /> SEARCH</li></a>
+                <a href="#"><li><FontAwesomeIcon icon={faChartSimple} /> STATISTIC</li></a>
               </ul>
             </div>
           </div>
