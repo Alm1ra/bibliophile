@@ -1,5 +1,6 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,9 +20,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="footer">
-        <h4>© 2023 Copyright: Aleksandra Frydlewicz</h4>
-        </div>
+        <Footer/>
       </div>
     </div>
   );

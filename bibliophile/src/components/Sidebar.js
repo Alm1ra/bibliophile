@@ -14,10 +14,10 @@ export default function Sidebar() {
             </div>
             <div className="navbar">
               <ul>
-                <a href="./"><li><FontAwesomeIcon icon={faHouse} /> HOME</li></a>
-                <a href="#"><li><FontAwesomeIcon icon={faPlus} /> ADD</li></a>
-                <a href="#"><li><FontAwesomeIcon icon={faMagnifyingGlass} /> SEARCH</li></a>
-                <a href="#"><li><FontAwesomeIcon icon={faChartSimple} /> STATISTIC</li></a>
+                <a href="./"><li><FontAwesomeIcon className='icon' icon={faHouse} /> HOME</li></a>
+                <a href="#"><li><FontAwesomeIcon className='icon' icon={faPlus} /> ADD</li></a>
+                <a href="#"><li><FontAwesomeIcon className='icon' icon={faMagnifyingGlass} /> SEARCH</li></a>
+                <a href="#"><li><FontAwesomeIcon className='icon' icon={faChartSimple} /> STATISTICS</li></a>
               </ul>
             </div>
         </div>

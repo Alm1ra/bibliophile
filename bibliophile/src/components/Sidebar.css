@@ -76,3 +76,7 @@ a {
 a:hover {
     color: #73d1a8;
 }
+
+.icon {
+    padding-right: 5px;
+}
