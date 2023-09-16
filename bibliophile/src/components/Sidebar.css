@@ -6,19 +6,22 @@ h3 {
     color: #ffffff;
 }
 
-#menu {
+.menu {
     border-radius: 10px  10px 0 0 !important;
     display: flex;
     padding: 1.5em 1em 1.5em 1em;
     background: #01786a;
 }
 
-#menu h3 {
+.menu h3 {
     padding: 0.2em 0.2em 0.2em 0.2em;
     margin-right: auto;
 }
 
 #menu-btn {
+    background-color: #01786a;
+    border: none;
+    width: 2em;
     padding-top: 3px;
     border-radius: 5px !important;
     padding: 0.2em 0.2em 0.2em 0.2em;
@@ -34,6 +37,35 @@ h3 {
 
 #menu-btn:hover {
   background-color: #019b89;
+}
+
+.hover-collapse .bar-text {
+    display: none;
+}
+
+.hover-collapse.bar {
+    width: auto;
+}
+
+.hover-collapse .navbar {
+    text-align: center;
+}
+
+.hover-collapse .menu {
+    text-align: center;
+    display: block;
+}
+
+.hover-collapse .menu h3 {
+    padding: 0;
+}
+
+.hover-collapse #menu-btn {
+    float: none;
+}
+
+.hover-collapse .icon {
+    padding: 0;
 }
 
 .bar {
@@ -80,3 +112,4 @@ a:hover {
 .icon {
     padding-right: 5px;
 }
+

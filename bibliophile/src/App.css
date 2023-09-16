@@ -11,7 +11,7 @@ body {
 }
 header, section, aside, nav, article { display: block; }
 
-button {
+.desc button {
     padding: 8px 45px !important;
     font-size: 14px;
     font-weight: bold;
