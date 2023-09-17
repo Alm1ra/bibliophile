@@ -5,8 +5,8 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faChartSimple } from '@fortawesome/free-solid-svg-icons';
 import './Sidebar.css';
-export default function Sidebar() {
 
+export default function Sidebar() {
 var isCollapsed = false;
 
   function menuBtnHandler() {
@@ -48,10 +48,10 @@ var isCollapsed = false;
             </div>
             <div className="navbar">
               <ul>
-                <a href="./"><li><FontAwesomeIcon className='icon' icon={faHouse}/><span className='bar-text'> HOME</span></li></a>
-                <a href="#"><li><FontAwesomeIcon className='icon' icon={faPlus} /><span className='bar-text'> ADD</span></li></a>
-                <a href="#"><li><FontAwesomeIcon className='icon' icon={faMagnifyingGlass} /><span className='bar-text'> SEARCH</span></li></a>
-                <a href="#"><li><FontAwesomeIcon className='icon' icon={faChartSimple} /><span className='bar-text'> STATISTICS</span></li></a>
+                <a href="/"><li><FontAwesomeIcon className='icon' icon={faHouse}/><span className='bar-text'> HOME</span></li></a>
+                <a href="/add"><li><FontAwesomeIcon className='icon' icon={faPlus} /><span className='bar-text'> ADD</span></li></a>
+                <a href="/search"><li><FontAwesomeIcon className='icon' icon={faMagnifyingGlass} /><span className='bar-text'> SEARCH</span></li></a>
+                <a href="/statistic"><li><FontAwesomeIcon className='icon' icon={faChartSimple} /><span className='bar-text'> STATISTICS</span></li></a>
               </ul>
             </div>
         </div>

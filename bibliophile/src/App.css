@@ -54,10 +54,10 @@ input:hover {
 }
 
 .header {
-    background: url('../img/header_new2.jpg') !important;
+    /*background: url('../img/header_new2.jpg') !important;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover !important;
+    background-size: cover !important;*/
     height: 88vh;
 }
 
@@ -70,7 +70,7 @@ input:hover {
     width: 35em;
 }
 
-@media (max-width: 1240px) {
+/*@media (max-width: 1240px) {
     .desc {
         display: inline-block;
         float:none;
@@ -87,5 +87,5 @@ input:hover {
         background-size: cover !important;
         height: 88vh;
     }
-}
+}*/
 

@@ -1,28 +1,30 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import AddPage from './pages/AddPage';
+import SearchPage from './pages/SearchPage';
+import StatisticPage from './pages/StatisticPage';
 
 function App() {
   return (
-    <div className="App">
-      <div className="home">
-        <div className="content">
+    <Router>
+      <div className="App">
+        <div className="home">
           <Sidebar/>         
           <div className="header">
-            <div className="desc">
-            <h1>BIBLIOPHILE</h1>
-            <h2>Dive into a world of books</h2>
-            <h2>Discover new reads</h2>
-            <h2>Your next adventure begins now</h2>
-              <form action="#">
-                <input type="submit" value="SEARCH NOW"/>
-              </form>
-            </div>
+            <Routes>
+              <Route path='/' element={<HomePage/>}/>
+              <Route path='/add' element={<AddPage/>}/>
+              <Route path='/search' element={<SearchPage/>}/>
+              <Route path='/statistic' element={<StatisticPage/>}/>
+            </Routes>
           </div>
+          <Footer/>
         </div>
-        <Footer/>
       </div>
-    </div>
+    </Router>
   );
 }
 
