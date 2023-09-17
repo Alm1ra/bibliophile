@@ -11,13 +11,31 @@ var isCollapsed = false;
 
   function menuBtnHandler() {
     const bar = document.querySelector('.bar');
+    const bar_texts = document.querySelectorAll('.bar-text');
 
     if(!isCollapsed) {
       bar.classList.add('hover-collapse');
+      bar_texts.forEach(bar_text => {
+        bar_text.classList.add('visuallyhidden');
+        bar_text.classList.add('hidden');
+      });
       isCollapsed = true;
     }
+
     else {
       bar.classList.remove('hover-collapse');
+      setTimeout(function() {
+        bar_texts.forEach(bar_text => {
+          bar_text.classList.remove('visuallyhidden');
+        })
+      }, 250);
+
+      setTimeout(function() {
+        bar_texts.forEach(bar_text => {
+          bar_text.classList.remove('hidden');
+        })
+      }, 200);
+
       isCollapsed = false;
     }
   }
