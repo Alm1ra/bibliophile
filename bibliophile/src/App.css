@@ -11,15 +11,6 @@ body {
 }
 header, section, aside, nav, article { display: block; }
 
-.desc button {
-    padding: 8px 45px !important;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 8px;
-    cursor: pointer;
-    padding-left: 3em !important;
-}
-
 h1 {
     color: #015249;
     font-size: 3em;
@@ -37,55 +28,7 @@ p {
     font-size: 1.4em;
 }
 
-input {
-	padding: 0.6em 3em !important;
-	font-size: 1.5em;
-	font-weight: bold;
-	margin: 8px;
-	cursor: pointer;
-    background: #57bc90;
-    color: white;
-    border-radius: 3px !important;
-    border: none;
-}
-
-input:hover {
-    background: #73d1a8;
-}
-
 .header {
-    /*background: url('../img/header_new2.jpg') !important;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover !important;*/
     height: 88vh;
 }
-
-.desc {
-    text-align: center;
-    margin: 0;
-    float: right;
-    margin: 14vh 0 14vh 0;
-    padding: 10vh 5vw 10vh 5vw;
-    width: 35em;
-}
-
-/*@media (max-width: 1240px) {
-    .desc {
-        display: inline-block;
-        float:none;
-        text-align: center;
-        background: rgba(255, 255, 255, 0.75);
-        border-radius: 5px !important;
-        width: auto;
-    }
-        
-    .header {           
-        background: url('../img/header_new.jpg') !important;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover !important;
-        height: 88vh;
-    }
-}*/
 

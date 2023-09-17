@@ -6,6 +6,40 @@
     background-size: cover !important;
 }
 
+.desc {
+    text-align: center;
+    margin: 0;
+    float: right;
+    margin: 14vh 0 14vh 0;
+    padding: 10vh 5vw 10vh 5vw;
+    width: 35em;
+}
+
+.desc button {
+    padding: 8px 45px !important;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px;
+    cursor: pointer;
+    padding-left: 3em !important;
+}
+
+input {
+	padding: 0.6em 3em !important;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 8px;
+	cursor: pointer;
+    background: #57bc90;
+    color: white;
+    border-radius: 3px !important;
+    border: none;
+}
+
+input:hover {
+    background: #73d1a8;
+}
+
 @media (max-width: 1240px) {
     .desc {
         display: inline-block;
