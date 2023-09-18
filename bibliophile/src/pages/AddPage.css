@@ -17,7 +17,7 @@
     background: rgba(255, 255, 255, 0.93);
     margin: 0;
     margin-top: 3vh;
-    padding: 3rem;
+    padding: 5vh;
     width: 50vw;
     border-radius: 5px !important;
 }
@@ -49,23 +49,16 @@
     color: #01433b;
 }
 
-.add_form #title {
+.add_form input[type=text] {
     display: block;
     margin: 0 auto;
-    width: 26em;
-    padding: 0.4em 0 0.4em 0;
-    font-size: 1.2em;
-}
-
-.add_form #author {
-    display: block;
-    margin: 0 auto;
-    width: 26em;
+    width: 42vw;
     padding: 0.4em 0 0.4em 0;
     font-size: 1.2em;
 }
 
 textarea {
+    width: 42vw;
     padding: 0.4em 0.5em 0.4em 0.5em;
     margin-bottom: 1em;
     font-size: 1.2em;
@@ -75,5 +68,11 @@ textarea {
     font-size: 1.2em;
     padding: 0.4em 0 0.4em 0;
     text-align:center;
-    width: 26em;
+    width: 42vw;
+}
+
+@media (max-width: 863px) {
+    .add_form {
+        margin-top: 0;
+    }
 }
