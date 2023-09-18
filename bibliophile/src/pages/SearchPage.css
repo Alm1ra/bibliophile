@@ -1,27 +1,30 @@
 .search-header {
-    padding: 2em;
+    padding: 7vh 0;
     background: url('../../img/header_0_new.jpg') !important;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover !important;
-    height: 20em;
 }
 
 .search-header h1 {
-    margin: 2rem;
-    margin-top: 3.3rem;
+    margin-bottom: 2rem;
 }
 
 .search-form {
     display: inline-block;
 }
 
-#search {
+/*.search-header-cont {
+    display: inline-block;
+}*/
+
+.search-text {
+    display: block;
     border:1px solid #57bc90;
     padding: 0.4em 0.5em 0.4em 0.5em;
     margin-bottom: 1em;
     font-size: 1.2em;
-    width: 30em;
+    width: 50vw;
 }
 
 .search-button {
