@@ -80,8 +80,9 @@ textarea {
 
 @media (max-height: 860px) {
     .add-form {
-        text-align: left;
+        text-align: left !important;
         display:grid;
+        align-items: center;
         grid-template-columns: 14vh 35vw;
         grid-gap:2vh 1vw;
         margin: 2vh 0;
