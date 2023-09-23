@@ -77,3 +77,37 @@ textarea {
         margin: 4vh 0;
     }
 }
+
+@media (max-height: 860px) {
+    .add-form {
+        text-align: left;
+        display:grid;
+        grid-template-columns: 14vh 35vw;
+        grid-gap:2vh 1vw;
+        margin: 2vh 0;
+    }
+
+    .add_form {
+        height: 55vh;
+        margin: 11.5vh 0;
+    }
+
+    .add_form input[type=text] {
+        width: 35vw;
+    }
+
+    #genre {
+        width: 35vw;
+    }
+
+    textarea {
+        padding: 0.4em 0;
+        width: 35vw;
+    }
+
+    .add-content label {
+        margin: 0;
+    }
+
+
+}
