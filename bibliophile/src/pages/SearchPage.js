@@ -27,6 +27,8 @@ export default function SearchPage() {
                 <Book title={books[0].title} author={books[0].author} genre={books[0].genre} description={books[0].description}/>
                 <Book title={books[1].title} author={books[1].author} genre={books[1].genre} description={books[1].description}/>
                 <Book title={books[2].title} author={books[2].author} genre={books[2].genre} description={books[2].description}/>
+                <Book title={books[3].title} author={books[3].author} genre={books[3].genre} description={books[3].description}/>
+                <Book title={books[4].title} author={books[4].author} genre={books[4].genre} description={books[4].description}/>
             </div>
         </div>
     );

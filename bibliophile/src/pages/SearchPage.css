@@ -1,4 +1,5 @@
 .search-header {
+    height: 210px;
     padding: 6vh 0;
     background: url('../../img/header_0_new.jpg') !important;
     background-position: center center;
@@ -43,6 +44,16 @@
 }
 
 .search-result {
-    height: 54vh;
-    overflow-y:auto
+    height: calc(76vh - 210px);
+    overflow-y:auto;
+}
+
+@media (max-width: 762px) {
+    .search-header {
+        height: 270px;
+    }
+
+    .search-result {
+        height: calc(76vh - 270px);
+    }
 }
