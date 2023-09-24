@@ -1,5 +1,5 @@
 .search-header {
-    padding: 7vh 0;
+    padding: 6vh 0;
     background: url('../../img/header_0_new.jpg') !important;
     background-position: center center;
     background-attachment: fixed;
@@ -40,4 +40,9 @@
 
 .search-button:hover {
     background: #73d1a8;
+}
+
+.search-result {
+    height: 54vh;
+    overflow-y:auto
 }

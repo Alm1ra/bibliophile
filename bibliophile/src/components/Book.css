@@ -1,0 +1,25 @@
+.book {
+    display: inline-block;
+    width: 60vw;
+    padding: 5vh 5vw;
+    text-align: left;
+    border-bottom: 2px solid #01524987;
+
+}
+
+.book-title {
+    font-size: 1.5em;
+    color: #015249;
+    font-weight: bold;
+}
+
+.book-author {
+    font-size: 1.2em;
+    color: #015249;
+}
+
+.book-genre {
+    font-size: 1.1em;
+    color: #015249;
+    margin-bottom: 1vh;
+}

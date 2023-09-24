@@ -10,9 +10,10 @@
     text-align: center;
     margin: 0;
     float: right;
-    margin: 14vh 0 14vh 0;
+    margin: calc((68vh - 330px)/2) 0;
     padding: 10vh 5vw 10vh 5vw;
-    width: 35em;
+    width: 40vw;
+    height: 330px;
 }
 
 .home-input {
