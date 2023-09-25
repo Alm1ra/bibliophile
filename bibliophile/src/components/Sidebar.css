@@ -97,19 +97,19 @@ h3 {
     padding: 0.4em;  
 }
 
-ul {
+.bar ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+.bar li {
     border-radius: 5px !important;
     padding: 0.5em 0.5em 0.5em 0.5em;
     margin-bottom: 0.5em;
     transition: background-color 0.4s, color 0.5s;
 }
 
-li:hover {
+.bar li:hover {
     background-color: #0f665c;
     color: #73d1a8;
 }

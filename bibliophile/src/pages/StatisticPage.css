@@ -1,0 +1,94 @@
+.stat-content {
+    background: url('../../img/header_new5.jpg') !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover !important;
+    height: 100%;
+}
+
+.stat-header {
+    padding: 5vh 0;
+    height: 60px;
+}
+
+.stat-charts {
+    height: calc(78vh - 60px);
+}
+
+.stat-charts-upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.stat-charts-lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-all-books {
+    /*margin: 0 5vw;*/
+    margin-right: 3vw;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 5px !important;
+    height: 30vh;
+    width: 25vw;
+}
+
+.stat-all-books-cont {
+    font-size: 12vh;
+    color: #01786a;
+}
+
+.stat-authors {
+    /*margin: 0 5vw 0 0;*/
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 5px !important;
+    height: 30vh;
+    width: 42vw;
+}
+
+.stat-authors ol {
+    list-style: none;
+    counter-reset: item;
+    padding: 2vh 0;
+    font-size: 2.4vh;
+}
+
+.stat-authors li {
+    counter-increment: item;
+    margin-bottom: 1.4vh;
+}
+
+.stat-authors li::before {
+    margin-right: 10px;
+    content: counter(item);
+    background: #01786a;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+}
+
+.stat-genres {
+    /*margin: 5vh 5vw 0 5vw;*/
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 5px !important;
+    height: 30vh;
+    width: 70vw;
+}
+
+.plot {
+    align-items: center;
+    justify-content: center;
+    height: 20vh !important;
+    width: 60vw !important;
+}
